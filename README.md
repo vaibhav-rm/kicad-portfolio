@@ -22,11 +22,13 @@ Designed with **KiCad 10.0**.
 │   ├── *.kicad_sch               # Schematic
 │   ├── *.kicad_pcb               # PCB layout
 │   ├── *.kicad_pro               # Project file
+│   ├── docs/                     # schematic.pdf + 3D renders
 │   └── README.md                 # Project documentation (BOM, specs, build notes)
 ├── "Transforemerless power supply"/  # Project 02
 │   ├── *.kicad_sch               # Schematic
 │   ├── *.kicad_pcb               # PCB layout
 │   ├── *.kicad_pro               # Project file
+│   ├── docs/                     # schematic.pdf + 3D renders
 │   └── README.md                 # Project documentation (BOM, specs, build notes)
 └── README.md                     # This file
 ```
@@ -56,8 +58,7 @@ Designed with **KiCad 10.0**.
 
 - [x] Project 01 — AC to DC Converter
 - [x] Project 02 — Transformerless Power Supply
-- [ ] Add schematic/PDF exports and 3D renders per project
-- [ ] Add Gerbers for fabrication per project
+- [x] Schematic PDFs and 3D renders per project (`docs/`)
 - [ ] Add Project 03
 
 ## License

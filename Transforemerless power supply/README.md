@@ -76,8 +76,19 @@ AC IN (J1) ──► C4 2.25µF dropper ──► BRIDGE (D1–D4, 1N4007) ─�
 - Board outline: ~50 × 38 mm rectangle with mounting holes
 - Files:
   - `Transforemerless power supply.kicad_sch` — schematic
-  - `Transforemerless power supply.kicad_pcb` — layout
+  - `Transforemerless power supply.kicad_pcb` — layout (routed, single-sided)
   - `Transforemerless power supply.kicad_pro` — project file
+  - `docs/schematic.pdf` — schematic export
+  - `docs/pcb-3d-top.png`, `docs/pcb-3d-bottom.png` — 3D renders
+
+## Schematic
+
+[Download schematic (PDF)](./docs/schematic.pdf)
+
+## 3D preview
+
+![3D top view](./docs/pcb-3d-top.png)
+![3D bottom view](./docs/pcb-3d-bottom.png)
 
 ## Getting started
 

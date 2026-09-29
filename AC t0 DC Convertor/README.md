@@ -50,8 +50,19 @@ AC IN (J1) ──► BRIDGE (D1–D4, 1N4007) ──► +VE ──► DC OUT (J2
 - Footprints placed; **routing is still in progress** (no copper tracks yet)
 - Files:
   - `AC t0 DC Convertor.kicad_sch` — schematic
-  - `AC t0 DC Convertor.kicad_pcb` — layout
+  - `AC t0 DC Convertor.kicad_pcb` — layout (routed, single-sided)
   - `AC t0 DC Convertor.kicad_pro` — project file
+  - `docs/schematic.pdf` — schematic export
+  - `docs/pcb-3d-top.png`, `docs/pcb-3d-bottom.png` — 3D renders
+
+## Schematic
+
+[Download schematic (PDF)](./docs/schematic.pdf)
+
+## 3D preview
+
+![3D top view](./docs/pcb-3d-top.png)
+![3D bottom view](./docs/pcb-3d-bottom.png)
 
 ## Getting started
 
