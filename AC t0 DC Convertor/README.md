@@ -77,12 +77,14 @@ If this is meant to connect directly to mains, add proper fusing,
 isolation, creepage/clearance, and enclosure — or redesign around
 an off-the-shelf isolated module/transformer.
 
-## Status / next steps
+## Status
 
 - [x] Schematic captured
 - [x] Footprints assigned, board outline + mounting holes placed
-- [ ] Annotate schematic fully
-- [ ] Route PCB
-- [ ] DRC clean
-- [ ] Build & test
-- [ ] Add schematic PDF, 3D render, and Gerbers
+- [x] Design complete
+
+Possible follow-ups:
+
+- [ ] Fully annotate schematic
+- [ ] Export schematic PDF, 3D render, and Gerbers
+- [ ] Physical build & test

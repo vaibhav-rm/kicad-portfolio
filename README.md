@@ -9,7 +9,8 @@ Designed with **KiCad 10.0**.
 
 | # | Project | Description | Status |
 |---|---------|-------------|--------|
-| 01 | [AC to DC Converter](./AC%20t0%20DC%20Convertor/) | Mains-frequency AC to unregulated DC supply: bridge rectifier + bulk filter capacitor + power LED indicator, screw terminals for AC in / DC out. | 🟡 In progress — schematic done, PCB layout pending routing |
+| 01 | [AC to DC Converter](./AC%20t0%20DC%20Convertor/) | Mains-frequency AC to unregulated DC supply: bridge rectifier + bulk filter capacitor + power LED indicator, screw terminals for AC in / DC out. | 🟢 Complete |
+| 02 | [Transformerless Power Supply](./Transforemerless%20power%20supply/) | Non-isolated capacitive-dropper 5 V supply: X-rated dropper cap → bridge → Zener clamp → LM7805 regulator, screw terminals for AC in / 5 V out. | 🟢 Complete |
 
 > Status legend: 🟢 Done · 🟡 In progress · 🔴 Planned
 
@@ -17,12 +18,17 @@ Designed with **KiCad 10.0**.
 
 ```
 .
-├── "AC t0 DC Convertor"/   # Project 01
-│   ├── *.kicad_sch         # Schematic
-│   ├── *.kicad_pcb         # PCB layout
-│   ├── *.kicad_pro         # Project file
-│   └── README.md           # Project documentation (BOM, specs, build notes)
-└── README.md               # This file
+├── "AC t0 DC Convertor"/         # Project 01
+│   ├── *.kicad_sch               # Schematic
+│   ├── *.kicad_pcb               # PCB layout
+│   ├── *.kicad_pro               # Project file
+│   └── README.md                 # Project documentation (BOM, specs, build notes)
+├── "Transforemerless power supply"/  # Project 02
+│   ├── *.kicad_sch               # Schematic
+│   ├── *.kicad_pcb               # PCB layout
+│   ├── *.kicad_pro               # Project file
+│   └── README.md                 # Project documentation (BOM, specs, build notes)
+└── README.md                     # This file
 ```
 
 ## How to open a project
@@ -30,7 +36,7 @@ Designed with **KiCad 10.0**.
 1. Install KiCad 10.0 or newer.
 2. Clone this repo:
    ```bash
-   git clone <repo-url>
+   git clone git@github.com:vaibhav-rm/kicad-portfolio.git
    ```
 3. Open the `.kicad_pro` file of the project you want inside KiCad.
 
@@ -48,10 +54,11 @@ Designed with **KiCad 10.0**.
 
 ## Roadmap
 
-- [ ] Finish routing Project 01 and run DRC clean
+- [x] Project 01 — AC to DC Converter
+- [x] Project 02 — Transformerless Power Supply
 - [ ] Add schematic/PDF exports and 3D renders per project
 - [ ] Add Gerbers for fabrication per project
-- [ ] Add Project 02
+- [ ] Add Project 03
 
 ## License
 
