@@ -11,6 +11,7 @@ Designed with **KiCad 10.0**.
 |---|---------|-------------|--------|
 | 01 | [AC to DC Converter](./AC%20t0%20DC%20Convertor/) | Mains-frequency AC to unregulated DC supply: bridge rectifier + bulk filter capacitor + power LED indicator, screw terminals for AC in / DC out. | 🟢 Complete |
 | 02 | [Transformerless Power Supply](./Transforemerless%20power%20supply/) | Non-isolated capacitive-dropper 5 V supply: X-rated dropper cap → bridge → Zener clamp → LM7805 regulator, screw terminals for AC in / 5 V out. | 🟢 Complete |
+| 03 | [Servo Tester](./Servo%20Tester/) | NE555-based hobby servo tester: 100 kΩ knob sweeps ~50 Hz PWM output, 3-pin servo header, power LED, 5 V in. | 🟢 Complete |
 
 > Status legend: 🟢 Done · 🟡 In progress · 🔴 Planned
 
@@ -25,6 +26,12 @@ Designed with **KiCad 10.0**.
 │   ├── docs/                     # schematic.pdf + 3D renders
 │   └── README.md                 # Project documentation (BOM, specs, build notes)
 ├── "Transforemerless power supply"/  # Project 02
+│   ├── *.kicad_sch               # Schematic
+│   ├── *.kicad_pcb               # PCB layout
+│   ├── *.kicad_pro               # Project file
+│   ├── docs/                     # schematic.pdf + 3D renders
+│   └── README.md                 # Project documentation (BOM, specs, build notes)
+├── "Servo Tester"/               # Project 03
 │   ├── *.kicad_sch               # Schematic
 │   ├── *.kicad_pcb               # PCB layout
 │   ├── *.kicad_pro               # Project file
@@ -58,8 +65,9 @@ Designed with **KiCad 10.0**.
 
 - [x] Project 01 — AC to DC Converter
 - [x] Project 02 — Transformerless Power Supply
+- [x] Project 03 — Servo Tester
 - [x] Schematic PDFs and 3D renders per project (`docs/`)
-- [ ] Add Project 03
+- [ ] Add Project 04
 
 ## License
 
