@@ -3,7 +3,7 @@
 A collection of PCB designs built with [KiCad](https://www.kicad.org/).
 Each project lives in its own folder with schematic, PCB layout, and its own README.
 
-Designed with **KiCad 10.0**.
+Designed with **KiCad 10.0**
 
 ## Projects
 
